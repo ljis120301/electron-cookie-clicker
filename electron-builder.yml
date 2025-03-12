@@ -1,6 +1,6 @@
 appId: com.example.nextron
-productName: My Nextron App
-copyright: Copyright © 2018 Yoshihide Shiono
+productName: Cookie Clicker
+copyright: lain
 directories:
   output: dist
   buildResources: resources
@@ -10,3 +10,12 @@ files:
       - package.json
       - app
 publish: null
+win:
+  icon: resources/icon.ico
+mac:
+  icon: resources/icon.icns
+  extendInfo:
+    CFBundleDisplayName: "Cookie Clicker"
+    CFBundleName: "Cookie Clicker"
+linux:
+  icon: resources/cookie.png

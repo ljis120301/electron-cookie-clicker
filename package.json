@@ -1,9 +1,10 @@
 {
   "private": true,
-  "name": "my-nextron-app",
-  "description": "My application description",
+  "name": "cookie-clicker",
+  "productName": "Cookie Clicker",
+  "description": "Cookie Clicker Game",
   "version": "1.0.0",
-  "author": "Yoshihide Shiono <shiono.yoshihide@gmail.com>",
+  "author": "lain",
   "main": "app/background.js",
   "scripts": {
     "dev": "nextron",
